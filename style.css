@@ -1,0 +1,55 @@
+/* Hero section */
+.hero-section {
+  height: 100vh;
+  background: url('../images/hero.jpg') no-repeat bottom center/cover;
+  
+}
+#home .container{
+color: #0d6efd;
+}
+/* Navbar links hover */
+.navbar-nav .nav-link:hover {
+  color: #0d6efd !important;
+  font-weight: 500;
+}
+
+/* Responsive image styling */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+}
+
+
+/* Mobile (up to 768px) */
+@media (max-width: 768px) {
+  body {
+    font-size: 0.75rem; 
+  }
+  #home{
+    height: 450px;
+  }
+  /* .name img{
+    width: 50%;
+
+  } */
+ 
+ 
+}
+/* Tablet (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    font-size: 1rem;
+  }
+}
+/* Desktop (above 1024px) */
+@media (min-width: 1025px) {
+  body {
+    font-size: 1.05rem;
+  }
+}
+
